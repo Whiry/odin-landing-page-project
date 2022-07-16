@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+:root {
+    --clr-bg-main: #1F2937;
+    --clr-white-1: #F9FAF8;
+    --clr-gray-1: #E5E7EB;
+    --clr-gray-2: #1F2937;
+    --clr-blue-1: #3882F6;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+
+.header {
+    background-color: var(--clr-bg-main);
+}
+
+.section-header {
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.header-logo {
+    width: 80px;
+    height: 80px;
+    filter: contrast(0);
+}
+
+.header-list {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+}
+
+.header-link {
+    font-size: 18px;
+    color: var(--clr-white-1);
+    text-decoration: none;
+}
+
+/* FIN HEADER */
+
+/* SECTION HERO */
+
+.section-hero {
+    background-color: var(--clr-bg-main);
+    padding: 96px 16px 126px 16px;
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.hero-header h1 {
+    font-size: 48px;
+    color: var(--clr-white-1);
+}
+
+.edit-h1 {
+    display: block;
+}
+
+.hero-header p {
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: var(--clr-gray-1);
+    max-width: 40ch;
+}
+
+.btn {
+    padding: 8px 16px;
+    color: var(--clr-white-1);
+    font-weight: bold;
+    border-radius: 4px;
+    border: none;
+}
+
+.btn-bg {
+    background-color: var(--clr-blue-1);
+}
+
+.btn-no-bg {
+    background-color: transparent;
+    border: 2px solid var(--clr-white-1);
+}
+
+.img-hero {
+   width: 50%;
+   height: auto;
+}
+
+/* FIN SECTION HERO */
+
+/* SECTION INFORMATION */
+
+.section-information {
+    padding: 36px 16px 186px 16px;
+}
+
+.information-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.information-header h2 {
+    font-size: 36px;
+    text-align: center;
+    color: var(--clr-gray-2);
+}
+
+.information-content {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    margin-top: 36px;
+}
+
+.information-content img {
+    width: 30%;
+    height: auto;
+}
+
+/* FIN SECTION INFORMATION */
+
+/* SECTION QUOTE */
+
+.section-quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--clr-gray-1);
+    height: 400px;
+}
+
+.quote-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: var(--clr-gray-2);
+    max-width: 45ch;
+    font-weight: 300;
+}
+
+.quote-text-secondary {
+  margin-top: 16px;
+  margin-left: auto;
+  font-weight: 500;
+}
+
+/* FIN SECTION QUOTE */
+
+/* SECTION CALL */
+
+.section-call {
+    padding: 96px 16px;
+}
+
+.call-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.call-content {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--clr-blue-1);
+    padding: 40px 16px;
+    border-radius: 8px;
+}
+
+.call-content h3 {
+    color: var(--clr-white-1);
+}
+
+.call-content p {
+    color: var(--clr-gray-1);
+}
+
+/* FIN SECTION CALL */
+
+/* FOOTER */
+
+.footer {
+    background-color: var(--clr-bg-main);
+    padding: 40px 16px;
+}
+
+.footer-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.footer-container p {
+    color: var(--clr-white-1);
+    text-align: center;
+}
+
+/* FIN FOOTER */
