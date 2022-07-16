@@ -9,11 +9,8 @@
 }
 
 html {
+    font-size: 62.5%;
     box-sizing: border-box;
-}
-
-body {
-    font-family: 'Roboto', sans-serif;
 }
 
 *,
@@ -22,6 +19,18 @@ body {
     box-sizing: inherit;
     margin: 0;
     padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+p {
+    line-height: 1.2;
 }
 
 /* HEADER */
@@ -178,6 +187,7 @@ body {
   margin-top: 16px;
   margin-left: auto;
   font-weight: 500;
+  font-size: 16px;
 }
 
 /* FIN SECTION QUOTE */
@@ -199,6 +209,7 @@ body {
     background-color: var(--clr-blue-1);
     padding: 40px 16px;
     border-radius: 8px;
+    font-size: 18px;
 }
 
 .call-content h3 {
@@ -226,6 +237,7 @@ body {
 .footer-container p {
     color: var(--clr-white-1);
     text-align: center;
+    font-size: 16px;
 }
 
 /* FIN FOOTER */
