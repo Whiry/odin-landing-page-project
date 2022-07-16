@@ -28,6 +28,7 @@ body {
 
 .header {
     background-color: var(--clr-bg-main);
+    padding: 0 16px;
 }
 
 .section-header {
@@ -106,9 +107,11 @@ body {
     border: 2px solid var(--clr-white-1);
 }
 
+
 .img-hero {
    width: 50%;
    height: auto;
+   border-radius: 8px;
 }
 
 /* FIN SECTION HERO */
@@ -135,11 +138,13 @@ body {
     gap: 16px;
     justify-content: center;
     margin-top: 36px;
+    padding: 0 16px;
 }
 
 .information-content img {
     width: 30%;
     height: auto;
+    border-radius: 8px;
 }
 
 /* FIN SECTION INFORMATION */
@@ -158,6 +163,7 @@ body {
     display: flex;
     flex-direction: column;
     max-width: 1000px;
+    padding: 0 16px;
 }
 
 .quote-text {
